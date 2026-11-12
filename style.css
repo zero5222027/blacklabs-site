@@ -32,9 +32,9 @@ details.co summary::-webkit-details-marker{display:none}
 details.co summary::after{content:" +";color:var(--fg)}
 details.co[open] summary::after{content:" –"}
 details.co summary:hover{color:var(--fg)}
-.cols{max-width:900px;margin:0 auto;padding:6px 24px 44px;display:grid;grid-template-columns:1fr 1fr;gap:28px 56px;font-size:15px}
+.cols{max-width:900px;margin:0 auto;padding:6px 24px 40px;display:grid;grid-template-columns:1fr 1fr;gap:10px 56px;font-size:15px;justify-items:center}
 .cols h2{font-size:11px;letter-spacing:.24em;text-transform:uppercase;color:var(--dim);font-weight:600;margin:0 0 12px}
-.cols p{margin:0 0 6px}
+.cols p{margin:0}
 .cols .k{color:var(--dim)}
 
 footer{border-top:1px solid var(--line);color:var(--dim);font-size:13px}
